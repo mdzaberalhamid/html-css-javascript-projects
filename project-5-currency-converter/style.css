@@ -1,0 +1,31 @@
+/* 
+Colors
+FFF455
+FFC700
+4CCD99
+007F73
+*/
+
+body {
+    background-color: #FFC700;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: #4CCD99;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.currency-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
