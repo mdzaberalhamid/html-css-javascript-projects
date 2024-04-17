@@ -24,8 +24,35 @@ body {
     border-radius: 5px;
 }
 
+h1 {
+    text-align: center;
+}
+
 .currency-container {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.currency-container select {
+    padding: 5px 10px;
+}
+
+.currency-container input {
+    border: none;
+    background: #007F73;
+    /* background: #FFC700; */
+    color: aliceblue;
+    font-size: 22px;
+    text-align: right;
+}
+
+.exchange-rate {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+select:focus, input:focus {
+    outline: 0;
 }
