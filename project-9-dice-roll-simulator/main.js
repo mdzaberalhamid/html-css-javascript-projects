@@ -6,8 +6,9 @@ const diceEl = document.getElementById("dice");
 function rollDice() {
     const rollResult = Math.floor(Math.random() * 6) + 1;
     // console.log(rollResult);
-    const rollFace = getDiceFace(rollResult);
-    console.log(rollFace);
+    const diceFace = getDiceFace(rollResult);
+    // console.log(diceFace);
+    diceEl.innerHTML = diceFace;
 }
 
 function getDiceFace(rollResult){
