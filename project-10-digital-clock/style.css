@@ -5,4 +5,16 @@ body {
     align-items: center;
     height: 100vh;
     justify-content: center;
+    background: url("./bg_pic.jpg");
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.clock {
+    display: flex;
 }
